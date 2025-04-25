@@ -48,7 +48,7 @@ function App() {
               alt="Wenfei Lu"
               className="w-32 h-32 mx-auto rounded-full border-4 border-white mb-4 shadow-lg"
             />
-            <h1 className="text-4xl font-bold">Hi, I'm Wenfei Lu</h1>
+            <h1 className="text-4xl font-bold">Hi, I'm Phoebe Lu</h1>
             <p className="mt-2 text-lg">
               Full-Stack Developer | React, Node.js, AWS | Christchurch
             </p>
@@ -95,7 +95,8 @@ function App() {
             <div className="space-y-6 text-sm">
               <div>
                 <h4 className="font-semibold">Digital Farm Simulator</h4>
-                <a href="https://fglcomp639.pythonanywhere.com/" className="text-sky-400 underline" target="_blank" rel="noreferrer">Live Demo</a>
+                <a href="https://fglcomp639.pythonanywhere.com/" className="text-sky-400" target="_blank" rel="noreferrer">
+                👉 Digital Farm Simulator - Live Demo</a>
                 <ul className="list-disc ml-6 mt-2">
                   <li>Real-time livestock simulation with Flask, SQL, and responsive UI.</li>
                   <li>Dynamic rendering and interactive dashboards.</li>
@@ -116,16 +117,18 @@ function App() {
             <h2 className="text-2xl font-semibold mb-6 text-sky-300">Work Experience</h2>
             <div className="space-y-4 text-sm">
               <div>
-                <h4 className="font-semibold">Blue Rental – Junior Web Developer</h4>
-                <p className="text-gray-400">Dec 2024 – Feb 2025</p>
+                <h4 className="font-semibold">Blue Rental - Junior Web Developer</h4>
+                <a href="https://bluerental.co.nz/" className="text-sky-400" target="_blank" rel="noreferrer">
+                👉 Blue Rental</a>
+                <p className="text-gray-400">Dec 2024 - Feb 2025</p>
                 <ul className="list-disc ml-6 mt-1">
                   <li>Developed AWS-hosted React frontend + Lambda backend integration.</li>
                   <li>Optimized site speed and accessibility.</li>
                 </ul>
               </div>
               <div>
-                <h4 className="font-semibold">Hell Pizza – Store Manager</h4>
-                <p className="text-gray-400">Jan 2021 – Nov 2023</p>
+                <h4 className="font-semibold">Hell Pizza - Store Manager</h4>
+                <p className="text-gray-400">Jan 2021 - Nov 2023</p>
                 <ul className="list-disc ml-6 mt-1">
                   <li>Led daily operations, improved customer experience and staffing workflows.</li>
                 </ul>
@@ -137,8 +140,8 @@ function App() {
           <section id="education" className="py-12 px-6 max-w-5xl mx-auto">
             <h2 className="text-2xl font-semibold mb-6 text-sky-300">Education</h2>
             <ul className="list-disc ml-6 text-sm">
-              <li><strong>Lincoln University</strong> — Master of Applied Computing (2024–2025, GPA 7+)</li>
-              <li><strong>University of Canterbury</strong> — BCom in Info Systems & Economics (2020–2022)</li>
+              <li><strong>Lincoln University</strong> — Master of Applied Computing (2024-2025, GPA 7+)</li>
+              <li><strong>University of Canterbury</strong> — BCom in Info Systems & Economics (2020-2022)</li>
             </ul>
           </section>
 

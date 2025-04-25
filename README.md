@@ -1,4 +1,4 @@
-# Wenfei Lu — Interactive Developer Portfolio
+# Phoebe Lu — Interactive Developer Portfolio
 A stunning, interactive personal portfolio built with **React** and **Tailwind CSS**, featuring smooth animations, particle effects, and dynamic UI components.
 
 This site showcases my skills, experience, and projects as a full-stack developer, with a visually engaging layout and immersive background effects like `ClickSpark` and animated background `Particles`.
@@ -19,7 +19,7 @@ This site showcases my skills, experience, and projects as a full-stack develope
 - **Hosting**: Vercel
 
 ## 📸 Live Demo
-[text](https://my-portfolio-five-beige-34.vercel.app/)
+[Phoebe's Portfolio](https://my-portfolio-five-beige-34.vercel.app/)
 
 ## 📁 Project Setup
 
