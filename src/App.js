@@ -141,9 +141,6 @@ function App() {
             <div className="space-y-6 text-sm sm:text-base">
               <div>
                 <h4 className="font-semibold">Digital Farm Simulator</h4>
-                <a href="https://fglcomp639.pythonanywhere.com/" className="text-sky-400" target="_blank" rel="noreferrer">
-                  👉 Digital Farm Simulator - Live Demo
-                </a>
                 <ul className="list-disc ml-6 mt-2">
                   <li>Real-time livestock simulation with Flask, SQL, and responsive UI.</li>
                   <li>Dynamic rendering and interactive dashboards.</li>
@@ -151,6 +148,9 @@ function App() {
               </div>
               <div>
                 <h4 className="font-semibold">Secure Travel Journal App (Group Project)</h4>
+                <a href="https://fglcomp639.pythonanywhere.com/" className="text-sky-400" target="_blank" rel="noreferrer">
+                  👉 Online Travel Journal - Live Demo
+                </a>
                 <ul className="list-disc ml-6 mt-2">
                   <li>Role-based login, hashed passwords, responsive front end.</li>
                   <li>Collaboration via SCRUM, Jira, and GitHub version control.</li>
