@@ -9,6 +9,18 @@ function App() {
   return (
     <ClickSpark>
       <div className="bg-black min-h-screen text-white font-sans">
+      <div className="absolute inset-0 z-0">
+        <Particles
+          particleColors={['#ffffff', '#ffffff']}
+          particleCount={700}
+          particleSpread={10}
+          speed={0.01}
+          particleBaseSize={200}
+          moveParticlesOnHover={true}
+          alphaParticles={false}
+          disableRotation={false}
+        />
+      </div>
         <div className="relative z-20">
 
           {/* Navigation */}
@@ -75,18 +87,14 @@ function App() {
           {/* Hero Section */}
           <section className="relative w-full h-[500px] sm:h-[600px] flex items-center justify-center text-center overflow-hidden">
             {/* Particles Background */}
-            <div className="absolute inset-0 z-0">
-              <Particles
-                particleColors={['#ffffff', '#ffffff']}
-                particleCount={200}
-                particleSpread={10}
-                speed={0.1}
-                particleBaseSize={100}
-                moveParticlesOnHover={true}
-                alphaParticles={false}
-                disableRotation={false}
-              />
-            </div>
+            {/* <div className="absolute inset-0 z-0">
+            <LetterGlitch
+              glitchSpeed={50}
+              centerVignette={true}
+              outerVignette={false}
+              smooth={true}
+            />
+            </div> */}
 
             {/* Hero Content */}
             <div className="relative z-10 px-4">
@@ -129,7 +137,7 @@ function App() {
               <div>
               <h4 className="font-semibold mb-1">Frameworks & Tools</h4>
                 <ul className="list-disc ml-6">
-                  <li>React, Node.js, Flask, Bootstrap, Tailwind CSS, Three.js</li>
+                  <li>React, Node.js, Flask, Bootstrap, Tailwind CSS</li>
                   <li>MySQL Workbench, VS Code, Pycharm, Git, Postman, Figma</li>
                 </ul>
               </div>
