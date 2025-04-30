@@ -97,7 +97,7 @@ function App() {
               />
               <h1 className="text-2xl sm:text-4xl font-bold">Hi, I'm Wenfei Lu</h1>
               <p className="mt-2 text-base sm:text-lg">
-              Web Developer | Specializing in Full-Stack Development, testing, React, Node.js, and AWS Services
+              Full-Stack Developer | Specialising in Full-Stack Development, testing, React, Node.js, and AWS Services
               </p>
             </div>
           </section>
@@ -123,26 +123,26 @@ function App() {
               <div>
               <h4 className="font-semibold mb-1">Operating Systems</h4>
                 <ul className="list-disc ml-6">
-                  <li>Windows, Linux, macOS, Ubuntu</li>
+                  <li>Windows, Linux, MacOS/IOS, Ubuntu</li>
                 </ul>
               </div>
               <div>
               <h4 className="font-semibold mb-1">Frameworks & Tools</h4>
                 <ul className="list-disc ml-6">
                   <li>React, Node.js, Flask, Bootstrap, Tailwind CSS, Three.js</li>
-                  <li>MySQL Workbench, VS Code, Git, Postman, Figma</li>
+                  <li>MySQL Workbench, VS Code, Pycharm, Git, Postman, Figma</li>
                 </ul>
               </div>
               <div>
                 <h4 className="font-semibold mb-1">Project Management</h4>
                 <ul className="list-disc ml-6">
-                  <li>Jira, GitHub, Confluence, Agile/SCRUM</li>
+                  <li>Jira, GitHub, Confluence, MS Project, MS Visio</li>
                 </ul>
               </div>
               <div>
                 <h4 className="font-semibold mb-1">Platforms & DevOps</h4>
                 <ul className="list-disc ml-6">
-                  <li>AWS, Azure DevOps, Docker, CI/CD</li>
+                  <li>AWS, Azure DevOps, Docker</li>
                 </ul>
               </div>
             </div>
