@@ -97,7 +97,7 @@ function App() {
               />
               <h1 className="text-2xl sm:text-4xl font-bold">Hi, I'm Wenfei Lu</h1>
               <p className="mt-2 text-base sm:text-lg">
-                Full-Stack Developer | React, Node.js, AWS | Christchurch
+              Web Developer | Specializing in Full-Stack Development, testing, React, Node.js, and AWS Services
               </p>
             </div>
           </section>
@@ -106,9 +106,7 @@ function App() {
           <section id="about" className="py-8 sm:py-12 px-4 sm:px-6 max-w-5xl mx-auto">
             <h2 className="text-2xl sm:text-3xl font-semibold mb-4 text-sky-300">About Me</h2>
             <p className="leading-relaxed text-sm sm:text-base">
-              I'm a Master's student in Applied Computing at Lincoln University with experience in full-stack development,
-              software testing, and cloud technologies. I'm passionate about creating intuitive digital experiences and
-              currently seeking a role to grow as a developer.
+              I'm proficient in customer service, web development and manual testing. I'm a student at Lincoln University currently studying for a Master of Applied Computing degree, with skills in full-stack development, software testing, cloud technologies and technical support. I'm currently looking for an opportunity to work in an IT environment that will help me progress into a developer role.
             </p>
           </section>
 
@@ -118,19 +116,34 @@ function App() {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-sm sm:text-base">
               <div>
                 <h4 className="font-semibold mb-1">Languages</h4>
-                <p>Python, JavaScript, SQL, HTML/CSS, C, C#</p>
+                <ul className="list-disc ml-6">  
+                  <li>Python, JavaScript, SQL, HTML, CSS, C, C#</li>
+                </ul>
               </div>
               <div>
-                <h4 className="font-semibold mb-1">Frameworks/Tools</h4>
-                <p>React, Node.js, Flask, Bootstrap, MySQL Workbench, VS Code</p>
+              <h4 className="font-semibold mb-1">Operating Systems</h4>
+                <ul className="list-disc ml-6">
+                  <li>Windows, Linux, macOS, Ubuntu</li>
+                </ul>
               </div>
               <div>
-                <h4 className="font-semibold mb-1">Systems</h4>
-                <p>Windows, MacOS, Linux</p>
+              <h4 className="font-semibold mb-1">Frameworks & Tools</h4>
+                <ul className="list-disc ml-6">
+                  <li>React, Node.js, Flask, Bootstrap, Tailwind CSS, Three.js</li>
+                  <li>MySQL Workbench, VS Code, Git, Postman, Figma</li>
+                </ul>
               </div>
               <div>
-                <h4 className="font-semibold mb-1">Project Management & Platforms</h4>
-                <p>Jira, Confluence, GitHub, AWS, Azure DevOps</p>
+                <h4 className="font-semibold mb-1">Project Management</h4>
+                <ul className="list-disc ml-6">
+                  <li>Jira, GitHub, Confluence, Agile/SCRUM</li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="font-semibold mb-1">Platforms & DevOps</h4>
+                <ul className="list-disc ml-6">
+                  <li>AWS, Azure DevOps, Docker, CI/CD</li>
+                </ul>
               </div>
             </div>
           </section>
@@ -140,14 +153,17 @@ function App() {
             <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-sky-300">Project Experience</h2>
             <div className="space-y-6 text-sm sm:text-base">
               <div>
-                <h4 className="font-semibold">Digital Farm Simulator</h4>
+                <h4 className="font-semibold">Online Issue Tracker</h4>
+                <a href="https://phoebelu1162540.pythonanywhere.com/" className="text-sky-400" target="_blank" rel="noreferrer">
+                👉 Online Issue Tracker - Live Demo
+                </a>
                 <ul className="list-disc ml-6 mt-2">
-                  <li>Real-time livestock simulation with Flask, SQL, and responsive UI.</li>
+                  <li>Online Issue Tracker with using Python, Flask, MySQL and Bootstrap.</li>
                   <li>Dynamic rendering and interactive dashboards.</li>
                 </ul>
               </div>
               <div>
-                <h4 className="font-semibold">Secure Travel Journal App (Group Project)</h4>
+                <h4 className="font-semibold">Secure Travel Journal App</h4>
                 <a href="https://fglcomp639.pythonanywhere.com/" className="text-sky-400" target="_blank" rel="noreferrer">
                   👉 Online Travel Journal - Live Demo
                 </a>
@@ -171,14 +187,18 @@ function App() {
                 <p className="text-gray-400">Dec 2024 - Feb 2025</p>
                 <ul className="list-disc ml-6 mt-1">
                   <li>Developed AWS-hosted React frontend + Lambda backend integration.</li>
-                  <li>Optimized site speed and accessibility.</li>
+                  <li>Optimised site speed and accessibility.</li>
+                  <li>Search engine via modified on Google Search Console.</li>
                 </ul>
               </div>
               <div>
                 <h4 className="font-semibold">Hell Pizza - Store Manager</h4>
                 <p className="text-gray-400">Jan 2021 - Nov 2023</p>
                 <ul className="list-disc ml-6 mt-1">
-                  <li>Led daily operations, improved customer experience and staffing workflows.</li>
+                  <li>Managed all store operations including training staffs, customer service, cash handling, and shift coordination.</li>
+                  <li>Implemented effective procurement strategies, optimizing inventory and reducing waste.</li>
+                  <li>Established strong customer relationships, driving return business and improving review scores.</li>
+                  <li>Streamlined team schedules and operational processes, leading to cost savings and better service delivery.</li>
                 </ul>
               </div>
             </div>
@@ -188,13 +208,13 @@ function App() {
           <section id="education" className="py-8 sm:py-12 px-4 sm:px-6 max-w-5xl mx-auto">
             <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-sky-300">Education</h2>
             <ul className="list-disc ml-6 text-sm sm:text-base">
-              <li><strong>Lincoln University</strong> — Master of Applied Computing (2024-2025, GPA 7+)</li>
+              <li><strong>Lincoln University</strong> — Master of Applied Computing (2024-2025, GPA 7)</li>
               <li><strong>University of Canterbury</strong> — BCom in Info Systems & Economics (2020-2022)</li>
             </ul>
           </section>
 
           {/* Contact Section */}
-          <section id="contact" className="py-8 sm:py-12 px-4 sm:px-6 max-w-5xl mx-auto text-center">
+          <section id="contact" className="py-8 sm:py-12 px-4 sm:px-6 max-w-5xl mx-auto">
             <h2 className="text-2xl sm:text-3xl font-semibold mb-4 text-sky-300">Contact</h2>
             <p className="mb-4 text-sm sm:text-base">
               📍 Christchurch · 📞 022 4099 690 · <a href="mailto:wenfei9904@gmail.com" className="text-sky-400 underline">wenfei9904@gmail.com</a>
