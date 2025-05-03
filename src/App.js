@@ -138,11 +138,11 @@ function App() {
                     {[
                       { name: "Python", level: "◼︎◼︎◼︎ Advanced" },
                       { name: "JavaScript", level: "◼︎◼︎◻︎ Intermediate" },
-                      { name: "SQL", level: "◼︎◼︎◻︎ Intermediate" },
                       { name: "HTML/CSS", level: "◼︎◼︎◻︎ Intermediate" },
-                      { name: "C#", level: "◼︎◻︎◻︎ Basic" },
-                      { name: "Java", level: "◼︎◻︎◻︎ Basic" },
-                      { name: "PHP", level: "◼︎◻︎◻︎ Basic" },
+                      { name: "C#", level: "◼︎◼︎◻︎ Intermediate" },
+                      { name: "Java", level: "◼︎◼︎◻︎ Intermediate" },
+                      { name: "PHP", level: "◼︎◼︎◻︎ Intermediate" },
+                      { name: "SQL", level: "◼︎◼︎◻︎ Intermediate" },
                     ].map((lang) => (
                       <li key={lang.name} className="grid grid-cols-2 gap-4 py-1">
                         <span>{lang.name}</span>
