@@ -105,7 +105,7 @@ function App() {
               />
               <h1 className="text-2xl sm:text-4xl font-bold">Hi, I'm Wenfei Lu</h1>
               <p className="mt-2 text-base sm:text-lg">
-              Full-Stack Developer | Specialising in Full-Stack Development, testing, React, Node.js, and AWS Services
+              Full Stack Developer | Experienced in Full-Stack Development | Familiar with Python, JavaScript, SQL, React, Node.js, and AWS Services
               </p>
             </div>
           </section>
@@ -114,99 +114,154 @@ function App() {
           <section id="about" className="py-8 sm:py-12 px-4 sm:px-6 max-w-5xl mx-auto">
             <h2 className="text-2xl sm:text-3xl font-semibold mb-4 text-sky-300">About Me</h2>
             <p className="leading-relaxed text-sm sm:text-base">
-              I'm proficient in customer service, web development and manual testing. I'm a student at Lincoln University currently studying for a Master of Applied Computing degree, with skills in full-stack development, software testing, cloud technologies and technical support. I'm currently looking for an opportunity to work in an IT environment that will help me progress into a developer role.
+              I am an experienced software developer with 1.5 years of expertise in software development. I enjoy exploring new programming concepts in software development.
+              <ul className="list-disc ml-6">
+                <li>Familiar with Python, JavaScript, SQL. Some knowledge of C# and architectural patterns such as MVC, MVP and MVVM.</li>
+                <li>API: Skilled in developing REST APIs, optimising and uplifting frameworks.</li>
+                <li>Cloud: Worked with cloud platforms like AWS and Azure, including services like Lambda, CI/CD pipelines, and YAML based workflows.</li>
+                <li>Agile: Worked in Agile Scrum teams and contributed to sprints, stand-ups, retrospectives and unit tests to support code quality and reliability.</li>
+              </ul>
+              
             </p>
           </section>
 
           {/* Skills Section */}
           <section id="skills" className="py-8 sm:py-12 px-4 sm:px-6 bg-black/60 max-w-5xl mx-auto rounded-xl">
             <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-sky-300">Technical Skills</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-sm sm:text-base">
-              <div>
-                <h4 className="font-semibold mb-1">Languages</h4>
-                <ul className="list-disc ml-6">  
-                  <li>Python, JavaScript, SQL, HTML, CSS, C, C#</li>
-                </ul>
-              </div>
-              <div>
-              <h4 className="font-semibold mb-1">Operating Systems</h4>
-                <ul className="list-disc ml-6">
-                  <li>Windows, Linux, MacOS/IOS, Ubuntu</li>
-                </ul>
-              </div>
-              <div>
-              <h4 className="font-semibold mb-1">Frameworks & Tools</h4>
-                <ul className="list-disc ml-6">
-                  <li>React, Node.js, Flask, Bootstrap, Tailwind CSS</li>
-                  <li>MySQL Workbench, VS Code, Pycharm, Git, Postman, Figma</li>
-                </ul>
-              </div>
-              <div>
-                <h4 className="font-semibold mb-1">Project Management</h4>
-                <ul className="list-disc ml-6">
-                  <li>Jira, GitHub, Confluence, MS Project, MS Visio</li>
-                </ul>
-              </div>
-              <div>
-                <h4 className="font-semibold mb-1">Platforms & DevOps</h4>
-                <ul className="list-disc ml-6">
-                  <li>AWS, Azure DevOps, Docker</li>
-                </ul>
-              </div>
-            </div>
-          </section>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 text-sm sm:text-base">
 
-          {/* Projects Section */}
-          <section id="projects" className="py-8 sm:py-12 px-4 sm:px-6 max-w-5xl mx-auto">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-sky-300">Project Experience</h2>
-            <div className="space-y-6 text-sm sm:text-base">
-              <div>
-                <h4 className="font-semibold">Online Issue Tracker</h4>
-                <a href="https://phoebelu1162540.pythonanywhere.com/" className="text-sky-400" target="_blank" rel="noreferrer">
-                👉 Online Issue Tracker - Live Demo
-                </a>
-                <ul className="list-disc ml-6 mt-2">
-                  <li>Online Issue Tracker with using Python, Flask, MySQL and Bootstrap.</li>
-                  <li>Dynamic rendering and interactive dashboards.</li>
-                </ul>
+              {/* Column 1 */}
+              <div className="space-y-6">
+                <div>
+                  <h4 className="font-semibold mb-2 text-sky-200">Programming Languages</h4>
+                  <ul className="list-none ml-0">
+                    {[
+                      { name: "Python", level: "◼︎◼︎◼︎ Advanced" },
+                      { name: "JavaScript", level: "◼︎◼︎◻︎ Intermediate" },
+                      { name: "SQL", level: "◼︎◼︎◻︎ Intermediate" },
+                      { name: "HTML/CSS", level: "◼︎◼︎◻︎ Intermediate" },
+                      { name: "C#", level: "◼︎◻︎◻︎ Basic" },
+                      { name: "Java", level: "◼︎◻︎◻︎ Basic" },
+                      { name: "PHP", level: "◼︎◻︎◻︎ Basic" },
+                    ].map((lang) => (
+                      <li key={lang.name} className="grid grid-cols-2 gap-4 py-1">
+                        <span>{lang.name}</span>
+                        <span>{lang.level}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               </div>
-              <div>
-                <h4 className="font-semibold">Secure Travel Journal App</h4>
-                <a href="https://fglcomp639.pythonanywhere.com/" className="text-sky-400" target="_blank" rel="noreferrer">
-                  👉 Online Travel Journal - Live Demo
-                </a>
-                <ul className="list-disc ml-6 mt-2">
-                  <li>Role-based login, hashed passwords, responsive front end.</li>
-                  <li>Collaboration via SCRUM, Jira, and GitHub version control.</li>
-                </ul>
+
+              {/* Column 2 */}
+              <div className="space-y-6">
+                <div>
+                  <h4 className="font-semibold mb-2 text-sky-200">Frameworks & Libraries</h4>
+                  <ul className="list-disc ml-6">
+                    <li>React, Node.js, Flask</li>
+                    <li>Bootstrap, Tailwind CSS</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-semibold mb-2 text-sky-200">Tools & IDEs</h4>
+                  <ul className="list-disc ml-6">
+                    <li>VS Code, Pycharm, IDEA, MySQL Workbench</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-semibold mb-2 text-sky-200">Design & Prototyping</h4>
+                  <ul className="list-disc ml-6">
+                    <li>Figma</li>
+                  </ul>
+                </div>
               </div>
+
+              {/* Column 3 */}
+              <div className="space-y-6">
+                <div>
+                  <h4 className="font-semibold mb-2 text-sky-200">Version Control & Agile</h4>
+                  <ul className="list-disc ml-6">
+                    <li>GitHub, Bitbucket</li>
+                    <li>Jira, Confluence</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-semibold mb-2 text-sky-200">CI/CD & Cloud</h4>
+                  <ul className="list-disc ml-6">
+                    <li>AWS, Docker</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-semibold mb-2 text-sky-200">API & Testing</h4>
+                  <ul className="list-disc ml-6">
+                    <li>Postman, Manual Testing</li>
+                  </ul>
+                </div>
+              </div>
+
             </div>
           </section>
 
           {/* Experience Section */}
           <section id="experience" className="py-8 sm:py-12 px-4 sm:px-6 max-w-5xl mx-auto">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-sky-300">Work Experience</h2>
-            <div className="space-y-6 text-sm sm:text-base">
+            <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-sky-300">Experience</h2>
+            <div className="space-y-10 text-sm sm:text-base">
+
+              {/* Blue Rental */}
               <div>
-                <h4 className="font-semibold">Blue Rental - Junior Web Developer</h4>
+                <h4 className="font-semibold">Blue Rental — Software Developer</h4>
                 <a href="https://bluerental.co.nz/" className="text-sky-400" target="_blank" rel="noreferrer">
                   👉 Blue Rental
                 </a>
                 <p className="text-gray-400">Dec 2024 - Feb 2025</p>
-                <ul className="list-disc ml-6 mt-1">
-                  <li>Developed AWS-hosted React frontend + Lambda backend integration.</li>
-                  <li>Optimised site speed and accessibility.</li>
-                  <li>Search engine via modified on Google Search Console.</li>
+                <ul className="list-disc ml-6 mt-2">
+                  <li>Designed and implemented a responsive front-end using React, hosted on AWS S3 for fast load times and high availability.</li>
+                  <li>Developed modular Node.js backend services using AWS Lambda, applying MVP architecture to refactor legacy logic and uplift existing codebase.</li>
+                  <li>Integrated multiple third-party and internal REST APIs, including a vehicle suggestion feature, using Lambda functions to handle data fetching, formatting, and failover strategies.</li>
+                  <li>Performed manual security testing such as SQL injection, input validation and patched vulnerabilities in API endpoints.</li>
                 </ul>
               </div>
+
+              {/* Online Issue Tracker */}
               <div>
-                <h4 className="font-semibold">Hell Pizza - Store Manager</h4>
-                <p className="text-gray-400">Jan 2021 - Nov 2023</p>
-                <ul className="list-disc ml-6 mt-1">
-                  <li>Managed all store operations including training staffs, customer service, cash handling, and shift coordination.</li>
-                  <li>Implemented effective procurement strategies, optimizing inventory and reducing waste.</li>
-                  <li>Established strong customer relationships, driving return business and improving review scores.</li>
-                  <li>Streamlined team schedules and operational processes, leading to cost savings and better service delivery.</li>
+                <h4 className="font-semibold">Issue Tracking System — Software Developer</h4>
+                <a href="https://phoebelu1162540.pythonanywhere.com/" className="text-sky-400" target="_blank" rel="noreferrer">
+                  👉 Online Issue Tracker
+                </a>
+                <p className="text-gray-400">Nov 2024 - Dec 2024</p>
+                <ul className="list-disc ml-6 mt-2">
+                  <li>Designed and implemented a modular Flask architecture.</li>
+                  <li>Built and normalised a relational MySQL database, applying best practices in data modeling, indexing, and foreign key enforcement.</li>
+                  <li>Developed a fully responsive, mobile-friendly UI styled with Bootstrap and customised CSS to match a campground branding theme.</li>
+                  <li>Used GitHub for version control with structured commits, pull requests, and issue tracking.</li>
+                </ul>
+              </div>
+
+              {/* Travel Journal */}
+              <div>
+                <h4 className="font-semibold">Travel Journal Web App — Software Developer</h4>
+                <a href="https://fglcomp639.pythonanywhere.com/" className="text-sky-400" target="_blank" rel="noreferrer">
+                  👉 Online Travel Journal
+                </a>
+                <p className="text-gray-400">Oct 2024 - Nov 2024</p>
+                <ul className="list-disc ml-6 mt-2">
+                  <li>Worked in a SCRUM team using Jira and GitHub for Agile collaboration and version control.</li>
+                  <li>Designed front-end components using HTML, CSS, and JavaScript.</li>
+                  <li>Implemented secure data handling techniques, connecting the python flask back-end to a MySQL database while ensuring hashing for sensitive information like password.</li>
+                  <li>Wrote and executed manual test cases to validate functionality and edge cases.</li>
+                </ul>
+              </div>
+
+              {/* Agronomist NZ Ltd */}
+              <div>
+                <h4 className="font-semibold">Agronomist NZ Ltd — Software Tester</h4>
+                <p className="text-gray-400">July 2024 - Oct 2024</p>
+                <ul className="list-disc ml-6 mt-2">
+                  <li>Worked in a Scrum team using Jira for sprint planning and tracking QA progress across test cycles.</li>
+                  <li>Created and executed detailed test cases in Zephyr Scale, covering both web UI and REST APIs, including suggestion/autocomplete features and dynamic form logic.</li>
+                  <li>Tested secure authentication flows involving SSO, token handling, and encryption/decryption of sensitive user data.</li>
+                  <li>Supported unit testing initiatives, helping developers validate logic with mocked API responses, assertions, and debugging test failures.</li>
+                  <li>Used Postman for manual API testing, validating response schemas, error handling, and backend integration with clear documentation of results.</li>
                 </ul>
               </div>
             </div>
