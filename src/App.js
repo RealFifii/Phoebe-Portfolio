@@ -26,7 +26,7 @@ function App() {
           {/* Navigation */}
           <nav className="bg-black/70 shadow-md sticky top-0 z-50 backdrop-blur-md">
             <div className="max-w-6xl mx-auto px-4 py-3 flex flex-wrap items-center justify-between text-white">
-              <div className="text-xl font-bold text-sky-400">Wenfei Lu</div>
+              <div className="text-xl font-bold text-sky-400">Phoebe Lu</div>
 
               {/* Hamburger button */}
               <div className="sm:hidden">
@@ -100,10 +100,10 @@ function App() {
             <div className="relative z-10 px-4">
               <img
                 src={profile}
-                alt="Wenfei Lu"
+                alt="Phoebe Lu"
                 className="w-24 h-24 sm:w-32 sm:h-32 mx-auto rounded-full border-4 border-white mb-4 shadow-lg"
               />
-              <h1 className="text-2xl sm:text-4xl font-bold">Hi, I'm Wenfei Lu</h1>
+              <h1 className="text-2xl sm:text-4xl font-bold">Hi, I'm Phoebe Lu</h1>
               <p className="mt-2 text-base sm:text-lg">
               Full Stack Developer | Experienced in Full-Stack Development | Familiar with Python, JavaScript, SQL, React, Node.js, and AWS Services
               </p>
@@ -290,7 +290,7 @@ function App() {
 
           {/* Footer */}
           <footer className="text-center text-xs sm:text-sm py-4 text-gray-400">
-            © 2025 Wenfei Lu. All rights reserved.
+            © 2025 Phoebe Lu. All rights reserved.
           </footer>
         </div>
       </div>
